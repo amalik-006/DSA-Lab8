@@ -1,0 +1,33 @@
+# Compiled C++ files
+*.exe
+*.out
+*.o
+*.obj
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# Build directories
+build/
+cmake-build-*/
+
+# Debugging files
+*.pdb
+*.ilk
+*.dSYM/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Compiled executables
+task1_peak_element
+task2_knights_tour
+task3_iterative_hanoi
+
+# Object files
+*.o
