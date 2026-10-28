@@ -118,6 +118,15 @@ g++ -std=c++17 -Wall -Wextra -pedantic task2_knights_tour.cpp -o task2_knights_t
 
 Enter the board size and starting row and column when prompted. Starting coordinates use zero-based indexing.
 
+### Task 2 (Optimized Code)
+
+```bash
+g++ -std=c++17 -Wall -Wextra -pedantic task2_optimized_algorithm.cpp -o task2_optimized_algorithm
+./task2_optimized_algorithm
+```
+
+Enter the board size and starting row and column when prompted. Starting coordinates use zero-based indexing.
+
 ### Task 3
 
 ```bash
