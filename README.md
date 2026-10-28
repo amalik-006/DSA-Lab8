@@ -53,6 +53,21 @@ The Knight's Tour problem requires a knight to visit every square of an N × N c
 
 The running time depends on the amount of backtracking required.
 
+### Optimized Knight's Tour
+
+**File:** `task2_optimized_algorithm.cpp`
+
+This implementation improves the practical performance of the Knight's Tour backtracking algorithm using **Warnsdorff's heuristic**.
+
+- Calculates the number of valid, unvisited moves available from each candidate square
+- Prioritizes moves with the fewest onward moves
+- Uses backtracking when a selected path cannot complete the tour
+- Accepts board sizes from 1 to 10 and user-specified starting coordinates
+
+**Complexity:**
+- **Time:** Exponential in the worst case due to backtracking; the heuristic improves practical performance but does not guarantee polynomial time
+- **Space:** O(N²) for the board and O(N²) maximum recursion depth
+
 ### Task 3: Iterative Tower of Hanoi
 
 **File:** `task3_iterative_hanoi.cpp`
